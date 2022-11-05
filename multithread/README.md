@@ -31,20 +31,14 @@ Thread-8: Transaction Completed. | before:    994 | amount:    -45 | after:    9
 ### lockありの場合
 ```sh
 MainThread: Account created. Initial balance:  1,000
-Thread-1: Transaction Completed. | before:  1,000 | amount:     89 | after:  1,089 |
-Thread-0: Transaction Completed. | before:  1,000 | amount:    -56 | after:    944 |
-Thread-2: Transaction Completed. | before:  1,000 | amount:     97 | after:  1,097 |
-Thread-5: Transaction Completed. | before:  1,097 | amount:    -11 | after:  1,086 |
-Thread-4: Transaction Completed. | before:  1,097 | amount:    -90 | after:  1,007 |
-Thread-3: Transaction Completed. | before:  1,089 | amount:    -11 | after:  1,078 |
-Thread-8: Transaction Completed. | before:  1,078 | amount:     74 | after:  1,152 |
-Thread-7: Transaction Completed. | before:  1,007 | amount:     23 | after:  1,030 |
-Thread-6: Transaction Completed. | before:  1,007 | amount:     82 | after:  1,089 |
-Thread-9: Transaction Completed. | before:  1,152 | amount:    -88 | after:  1,064 |
-Thread-3: Transaction Completed. | before:  1,083 | amount:     88 | after:  1,171 |
-Thread-4: Transaction Completed. | before:  1,171 | amount:     86 | after:  1,257 |
-Thread-5: Transaction Completed. | before:  1,257 | amount:    -44 | after:  1,213 |
-Thread-6: Transaction Completed. | before:  1,213 | amount:     -7 | after:  1,206 |
-Thread-7: Transaction Completed. | before:  1,206 | amount:     66 | after:  1,272 |
-Thread-8: Transaction Completed. | before:  1,272 | amount:     26 | after:  1,298 |
-Thread-9: Transaction Completed. | before:  1,298 | amount:     31 | after:  1,329 |
+Thread-0: Transaction Completed. | before:  1,000 | amount:    -96 | after:    904 |
+Thread-1: Transaction Completed. | before:    904 | amount:    -11 | after:    893 |
+Thread-2: Transaction Completed. | before:    893 | amount:    -90 | after:    803 |
+Thread-3: Transaction Completed. | before:    803 | amount:     11 | after:    814 |
+Thread-4: Transaction Completed. | before:    814 | amount:     57 | after:    871 |
+Thread-5: Transaction Completed. | before:    871 | amount:    -42 | after:    829 |
+Thread-6: Transaction Completed. | before:    829 | amount:     19 | after:    848 |
+Thread-7: Transaction Completed. | before:    848 | amount:     52 | after:    900 |
+Thread-8: Transaction Completed. | before:    900 | amount:     13 | after:    913 |
+Thread-9: Transaction Completed. | before:    913 | amount:    -33 | after:    880 |
+```
