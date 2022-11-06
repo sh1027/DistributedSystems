@@ -22,6 +22,7 @@ python tcp_echo_client.py
 
 ### UDP 通信
 serverを実行させた状態で，clientを実行
+（※同じPCで実行したため，ServerからClientへの再送信はできていない）
 #### Server
 ```sh
 python udp_echo_server.py
